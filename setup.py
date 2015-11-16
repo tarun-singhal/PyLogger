@@ -2,7 +2,7 @@ from distutils.core import setup
 from setuptools import find_packages
 
 setup(
-      name = 'tarun-bblogger',
+      name = 'PyLogger',
       version='1.0',
       author='Tarun',
       author_email='ks.tarun@gmail.com',
