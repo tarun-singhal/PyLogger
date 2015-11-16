@@ -1,15 +1,28 @@
 from distutils.core import setup
+from setuptools import find_packages
 
 setup(
       name = 'tarun-bblogger',
       version='1.0',
       author='Tarun',
       author_email='ks.tarun@gmail.com',
-      packages=['bblogger'],
+      packages=find_packages(),
+      include_package_data=True,
       url='https://github.com/tarun-singhal/PyLogger',
       licence='',
       description='',
       long_description='',
-      zip_safe=FALSE 
-      )
+      classifiers=[
+        'Development Status :: 3 - Alpha',
+        'Environment :: Web Environment',
+        'Framework :: Django',
+        'Intended Audience :: Developers',
+        'License :: OSI Approved :: BSD License',
+        'Natural Language :: English',
+        'Programming Language :: Python',
+        'Programming Language :: JavaScript',
+        'Topic :: Scientific/Engineering :: GIS',
+    ],
+    zip_safe=FALSE 
+)
 
