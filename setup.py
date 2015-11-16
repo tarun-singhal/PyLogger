@@ -6,7 +6,7 @@ setup(
       version='1.0',
       author='Tarun',
       author_email='ks.tarun@gmail.com',
-      packages=find_packages(),
+      packages=['bblogger']
       include_package_data=True,
       url='https://github.com/tarun-singhal/PyLogger',
       licence='',
