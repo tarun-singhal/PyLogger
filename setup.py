@@ -1,7 +1,7 @@
 from distutils.core import setup
 
 setup(
-      name = 'bblogger',
+      name = 'tarun-bblogger',
       version='1.0',
       author='Tarun',
       author_email='ks.tarun@gmail.com',
